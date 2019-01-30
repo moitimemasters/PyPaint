@@ -30,7 +30,7 @@ class Window(QMainWindow):
         save.setShortcut("Ctrl+S")
         fmenu.addAction(save)
         save.triggered.connect(self.save)
-        extendedMenu = menu.addMenu("Расширенные настрокйки")
+        #extendedMenu = menu.addMenu("Расширенные настрокйки")
 
         clear = QAction(QIcon("icons/clear.svg"), "Очистить", self)
         clear.setShortcut("C")
