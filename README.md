@@ -1,1 +1,1 @@
-"# PyPaint" 
+# PyPaint
